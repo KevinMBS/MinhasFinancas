@@ -32,13 +32,13 @@ nav a:hover{
 table{
     margin: 50px auto;
     border-collapse: separate;
-    border-spacing: 10px;
+    border-spacing: 5px;
 }
 
 table td{
     padding: 10px;
-    height: 200px;
-    width: 300px;
+    height: 300px;
+    width: 450px;
     border: 2px solid #000000;
     border-radius: 10px;
 }
