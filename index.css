@@ -1,0 +1,49 @@
+header {
+    background-color: #65d356;
+    padding: 20px 0;
+}
+
+nav{
+    height: 50px;
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav li{
+    font-size: 20px;
+    display: inline-block;
+    padding: 15px;
+}
+
+nav a{
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+    transition: 250ms ease-in-out;
+}
+
+table{
+    margin: 50px auto;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+table td{
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 20px;
+}
