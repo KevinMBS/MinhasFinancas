@@ -17,8 +17,8 @@ function desenharGraficoSaldos() {
         [ 'Maio', 2000, 5000 ]
     ])
     const options = {
-        title: 'Evoluçao saldos',
-        prefix: 'R$',
+        title: 'Evolução saldos',
+        prefix: 'R$'
     }
     const chart = new google.visualization.LineChart(container)
     chart.draw(data, options)
@@ -27,7 +27,7 @@ function desenharGraficoSaldos() {
 function desenharGraficoGastosUltimoMes() {
     const container = document.querySelector('#graficoGastosUltimoMes')
     const data = new google.visualization.arrayToDataTable([
-        [ 'Categoria', 'Conta 1'],
+        [ 'Categoria', 'Valor'],
         [ 'Combustível', 10000],
         [ 'Alimentação', 9000],
         [ 'Hobbies', 8000],
@@ -36,7 +36,7 @@ function desenharGraficoGastosUltimoMes() {
     ])
     const options = {
         title: 'Gastos Ultimo Mês',
-        prefix: 'R$',
+        prefix: 'R$'
     }
     const chart = new google.visualization.PieChart(container)
     chart.draw(data, options)
